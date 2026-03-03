@@ -1,0 +1,18 @@
+package employee;
+public class employee
+{
+    String empname="yamuna";
+    int age=31;
+    double salary=20000.1000;
+    char gender='f';
+    public static void main(String args[])
+    {
+    	employee obj=new employee();
+    	System.out.println("employee name="+obj.empname);
+    	System.out.println("employee age="+obj.age);
+    	System.out.println("employee salary="+obj.salary);
+    	System.out.println("employee gender="+obj.gender);
+    		
+    }
+}
+
