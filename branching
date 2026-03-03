@@ -1,0 +1,21 @@
+package branching;
+
+public class branching {
+	
+	public static void main(String [] args) {
+		System.out.println("code for break statement");
+		for (int i=5;i<10;i++)
+		{
+			if(i==8)
+				break;
+			System.out.println(i);
+		}
+		System.out.println("code for continue statement");
+		for (int k=5;k<15;k++) {
+			if (k%2!=0)
+				continue;
+			System.out.println(k);
+		}
+	}
+
+}
