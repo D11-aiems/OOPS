@@ -1,0 +1,23 @@
+package student;
+
+public class student { 
+	String name;
+		int rno;
+		student()
+		{
+			name="abc";
+			rno=123;
+		}
+		student(String str,int n)
+		{
+			name=str;
+			rno=n;
+		}
+		public static void main(String [] args){
+			student s1=new student();
+					student s2=new student("def",456);
+					System.out.println(s1.name+" "+s1.rno);
+					System.out.println(s2.name+" "+s2.rno);
+		}
+}
+
