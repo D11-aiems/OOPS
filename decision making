@@ -1,0 +1,45 @@
+package decisionmaking;
+
+public class decisionmaking {
+	public static void main(String [] args) {
+		System.out.println("code for decision making statement");
+		int s=8;
+		if(s<10)
+		{
+			if(s%2==0)
+				System.out.println("s is an even no and greater than 10");
+			else;
+			System.out.println("s is an odd no and greater than 10");
+		}
+		else;
+		{
+			System.out.println("s is less than 10");
+		}
+		System.out.println("code for switch statment");
+		int instrument=4;
+		String musicinstrument;
+		switch (instrument)
+		{
+		case 1:musicinstrument="Guitar";
+		break;
+		case 2:musicinstrument="piano";
+		break;
+		case 3:musicinstrument="Drums";
+		break;
+		case 4:musicinstrument="Flute";
+		break;
+		case 5:musicinstrument="Violin";
+		break;
+		default:musicinstrument="Invalid";
+		break;
+		}
+		System.out.println("musicinstrument="+musicinstrument);
+		System.out.println("code for if else statement");
+		int i=0;
+		if(i<15)
+			System.out.println("i is smaller than 15");
+		else
+			System.out.println("i is greater than 15");
+	}
+
+}
