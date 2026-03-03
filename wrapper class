@@ -1,0 +1,29 @@
+public class wrapperclass {
+	void autoboxing()
+	{
+		int i=100;
+		System.out.println("before autoboxing ="+i);
+		
+		
+		Integer iobj = new Integer(i);
+		int iobj1=i;
+		System.out.println("after autoboxing ="+iobj1);
+	}
+	void unboxing()
+	{
+		Integer iobj = new Integer(200);
+		System.out.println("before unboxing ="+iobj);
+		
+		
+		int i= iobj;
+		System.out.println("after unboxing ="+i);
+	}
+
+	
+
+public static void main(String[]args) {
+		wrapperclass w = new wrapperclass();
+		w.autoboxing();
+		w.unboxing();
+	}
+}
