@@ -1,0 +1,15 @@
+package variables;
+
+public class variables {
+	static int c=30;
+	int a=20;
+	public static void main(String args[])
+	{
+		int b=10;
+		System.out.println("the value of c is="+c);
+		System.out.println("the  value of b is="+b);
+		variables obj=new variables();
+		System.out.println("the value of a is="+obj.a);
+	}
+
+}
