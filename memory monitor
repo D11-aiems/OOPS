@@ -1,0 +1,19 @@
+package memorymonitor;
+
+public class memorymonitor {
+	public static void main(String[]args) {
+		Thread t1=new Thread1 ();
+		t1.start();
+		System.out.println("thread started");
+	}
+
+}
+class Thread1 extends Thread
+{
+	public void run()
+	{
+	while(true)
+	{
+	}
+	}
+}
