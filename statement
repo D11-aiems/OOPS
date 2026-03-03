@@ -1,0 +1,23 @@
+package statement;
+
+import java.sql.Statement;
+
+public class statement {
+	private String name;
+	private int rollno;
+	void Setname(String name) {
+		this.name=name;
+	}
+	String getname() {
+		return name;
+	}
+	public static void main(String [] args) {
+		statement S=new statement();
+		S.Setname("yamuna");
+		System.out.println(S.getname());
+		S.rollno=12;
+		System.out.println(S.rollno=20);
+			
+	}
+
+}
